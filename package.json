@@ -1,0 +1,27 @@
+{
+  "name": "testmcq-service",
+  "version": "1.0.0",
+  "description": "testmcq service application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajkrsingh60/testmcq-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajkrsingh60/testmcq-service/issues"
+  },
+  "homepage": "https://github.com/rajkrsingh60/testmcq-service#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cognito-express": "^3.0.2",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
