@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "Cyber Helper Bot",
+    "version": "0.1.0",
+    "description": "Helper for scanning site to see if the site has any security related issues",
+    "author": "Atulya Singh",
+
+    "icons": {
+        "16": "robot16.png",
+        "48": "robot48.png",
+        "128": "robot128.png"
+
+    },
+
+    "action": {
+        "default_icon": "robot48.png",
+        "default_title": "Cyber Helper Bot",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+    }]    
+}
