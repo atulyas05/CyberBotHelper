@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Cyber Helper Bot
+		</title>
+		<script src="jquery-3.7.0.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+		<!-- Cascading Style Sheets -->
+		<script src="popup.js"></script>
+		<link href="bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
+	<body style="width: 600px; height: 400px;">
+		<div class="container">
+			<h2 id="title" style="background-color: aqua;">Cyber Helper Bot</h2>
+		</div>
+		<div id="exTab1" class="container">
+			<ul style="background-color: antiquewhite;" class="nav nav-pills">
+				<li class="active">
+					<a  href="#1a" data-toggle="tab">URL Overview</a>
+				</li>
+				<li><a href="#2a" data-toggle="tab">Password Guidelines</a>
+				</li>
+				<li><a href="#3a" data-toggle="tab">Cyber crimes Protection</a>
+				</li>
+			</ul>
+			<div class="tab-content clearfix">
+				<div class="tab-pane active" id="1a">
+					<br>
+					<br>
+					<h2>Hostname <span id="site-hostname"></span></h2>
+					<br>
+					<h3>Protocol <span id="site-protocol"></span></h3>
+					<br>
+
+					<p>SSL Secure (HTTPS) : <input type="checkbox" id="ssl-implemented" value="SSL"></p>
+					<p>The HTTPS protocol makes it possible for website users to transmit sensitive data <br> 
+						such as credit card numbers, banking information, and login credentials securely <br> 
+						over the internet. For this reason, HTTPS is especially important for securing online <br> 
+						activities such as shopping, banking, and remote work. However, HTTPS is quickly <br> 
+						becoming the standard protocol for all websites, <br> 
+						whether or not they exchange sensitive data with users.
+					</p>
+					<br> 
+					<br> 
+
+					<p>URL Name Safe : <input type="checkbox" id="url-name-safe" value="NameSafe"></p>
+					<br> 
+					<p> Website URL Safety check, <span style="background-color: red;">URL Should NOT</span></p>
+					<ul>
+						<li>
+							End with dot(.)
+						</li>
+						<li>
+							Contain any no ASCII characters
+						</li>
+						<li>
+							Contain underscore 
+						</li>
+					</ul>
+
+					<br>
+					<br>
+
+					<p> URL Safety knowledge check <a href="https://mlhale.github.io/nebraska-gencyber-modules/phishing/url-analysis/#url-tricks"> URL Tricks</a> </p>
+					<br>
+					<br>
+
+					<br> 
+					<br> 
+
+					<p>Website content Safe : <input type="checkbox" id="url-content-safe" value="ContentSafe"></p>
+					<br> 
+					<p> Website content  Safety check is based on the backend dataset which uses URLs from  <br> <a href="https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset?resource=download">Kaggle Malicious URLs Dataset</a> </p>
+
+					<br>
+					<br>
+
+				</div>
+
+				<div class="tab-pane" id="2a">
+
+					<br>
+					<br>
+
+					<p>Here are some tips to help you create a strong and secure password:</p>
+					<ul>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<p>Use a mix of uppercase and lowercase letters, numbers, and special characters.</p>
+							<meta itemprop="position" content="1">
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<p>Make your password at least 12 characters long. The longer, the better!</p>
+							<meta itemprop="position" content="2">
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<p>Avoid using common phrases or predictable patterns, like "password123"    <br> 
+								or "qwerty".</p>
+							<meta itemprop="position" content="3">
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<p>Do not use personal information, like your name, birthday, or passport number,   <br> 
+								 in your password.</p>
+							<meta itemprop="position" content="4">
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<p>Try to use a different password for each of your online accounts.</p>
+							<meta itemprop="position" content="5">
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<p>Always activate MFA if possible, gives better security.</p>
+							<meta itemprop="position" content="5">
+						</li>
+					</ul>
+					<br>
+					<br>
+
+				</div>
+				
+				<div class="tab-pane" id="3a">
+					<br>
+					<br>
+
+					<p>
+						Protecting yourself from Cyber crimes. 
+					</p>
+
+					<ul>
+						<li>
+							Turn on Multifactor Authentication
+						</li>
+						<li>
+							Update your software. In fact, turn on automatic updates.
+						</li>
+						<li>
+							Think Before You Click
+						</li>
+						<li>
+							Use Strong Passwords
+						</li>
+						<li>
+							Use a secure internet connection (https)
+						</li>
+						<li>
+							Be aware of pop-ups and fraudulent emails
+						</li>
+						<li>
+							Get Cyber insurance policy.
+						</li>
+						<li>
+							Don't save password in the browser
+						</li>
+						<li>
+							Always suspect before trust
+						</li>
+					</ul>
+					<br>
+					<br>
+					<p>For more take a look at <a href="https://www.policybazaar.com/corporate-insurance/articles/ways-to-protect-yourself-from-cyber-crime/">Cyber Crimes Guidelines and Insurance</a> </p>
+					<br>
+					<br>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
