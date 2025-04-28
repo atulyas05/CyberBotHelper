@@ -6,14 +6,14 @@
     "author": "Atulya Singh",
 
     "icons": {
-        "16": "robot16.png",
-        "48": "robot48.png",
-        "128": "robot128.png"
+        "16": "HackathonBot.png",
+        "48": "HackathonBot.png",
+        "128": "HackathonBot.png"
 
     },
 
     "action": {
-        "default_icon": "robot48.png",
+        "default_icon": "HackathonBot.png",
         "default_title": "Cyber Helper Bot",
         "default_popup": "popup.html"
     },
