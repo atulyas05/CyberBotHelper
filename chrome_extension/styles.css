@@ -1,0 +1,112 @@
+
+/* Reset and font */
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+}
+
+/* Title Bar */
+#title {
+    text-align: center;
+    background-color: #ffffff;
+    color: #e60023;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Tabs at top (Navigation pills) */
+.nav-pills {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+}
+
+.nav-pills > li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-pills > li > a {
+    color: #333;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+    background-color: #e60023;
+    color: #fff;
+}
+
+/* Tab Content */
+.tab-content {
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2, h3 {
+    color: #e60023;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 8px;
+}
+
+/* Links */
+a {
+    color: #e60023;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Extra spacing */
+.tab-pane {
+    padding-top: 10px;
+}
+
+/* Container tweaks */
+.container {
+    padding: 10px;
+}
+
