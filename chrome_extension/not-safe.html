@@ -1,40 +1,96 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>
-			Cyber Helper Bot
-		</title>
-		<script src="jquery-3.7.0.min.js"></script>
-		<script src="bootstrap.min.js"></script>
-		<!-- Cascading Style Sheets -->
-		<script src="popup.js"></script>
-		<link href="bootstrap.min.css" rel="stylesheet" media="screen">
-	</head>
-	<body style="width: 800px; height: 600px; background-color: #FFC0CB; color: #8B0000; padding: 20px;">
-    <div>
-      <h3 id="title">Warning: Unsafe Website Detected</h3>
-    </div>
+<html lang="en">
 
-    <div>
-      <h4>The background server has marked this url as unsafe to browse!</h4>
-	  <p>Attention: You have navigated to a website that our database has flagged as 
-		potentially unsafe.   <br> 
-		Similar to entering a poorly lit alley known for troubles,   <br> 
-		browsing on an unsafe website can expose you to several online threats.   <br> 
-		These may include harmful viruses, malicious software, or deceptive phishing  <br> 
-		traps that attempt to trick you into sharing private information such as   <br> 
-		passwords or credit card details.</p>
-	  <p>Just as you would avoid a suspicious alley, it's crucial to steer clear   <br> 
-		from unsafe websites to safeguard your personal data and maintain the health   <br> 
-		of your device. Remember, if you find yourself in an unfamiliar  <br> 
-		digital environment, it's better to retreat. Navigate away from the website   <br> 
-		immediately and do not click on  any links, download files, or   <br> 
-		provide any personal information.</p>
-      <p>When it comes to the internet, always trust your instincts and prioritize   <br> 
-		safety. If a website doesn't seem  trustworthy or secure, it's always best   <br> 
-		to leave and ask for help from a trusted source if needed. Always remember:   <br> 
-		"This is an unsafe website. Proceed with caution or, better yet, not at all."</p>
-    </div>
+<head>
+ <meta charset="UTF-8">
+ <title>Cyber Helper Bot</title>
 
-	</body>
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+ <!-- Your custom styles -->
+ <link href="styles.css" rel="stylesheet" media="screen">
+
+ <!-- Scripts -->
+ <script src="jquery-3.7.0.min.js"></script>
+ <script src="bootstrap.min.js"></script>
+ <script src="popup.js"></script>
+
+ <style>
+  body {
+   width: 800px;
+   height: 600px;
+   background-color: #ffffff;
+   color: #333333;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 20px;
+  }
+
+  #titlebg {
+   background-color: #e60000;
+   padding: 20px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   color: white;
+   text-align: center;
+  }
+
+  .content-box {
+   background-color: #f8f9fa;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .content-box p {
+   margin-bottom: 15px;
+   line-height: 1.6;
+  }
+
+  h4 {
+   color: #e60000;
+  }
+
+  a {
+   color: #e60000;
+  }
+
+  a:hover {
+   text-decoration: underline;
+  }
+
+  .hackathon-image {
+   display: block;
+   margin: 0 auto;
+   max-width: 25%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ </style>
+</head>
+
+<body>
+ <div id="titlebg">
+  <h3 id="title"><span style="margin-right: 8px;">⚠️</span>Warning: Unsafe Website Detected</h3>
+  <img src="HackathonBot.png" alt="Hackathon" class="hackathon-image">
+ </div>
+
+ <div class="container content-box">
+  <h4>The background server has marked this URL as unsafe to browse!</h4>
+
+  <p>Attention: You have navigated to a website that our database has flagged as potentially unsafe.</p>
+  <p>Similar to entering a poorly lit alley known for trouble, browsing an unsafe website can expose you to
+   several online threats such as viruses, malicious software, or phishing traps designed to steal private data
+   like passwords or credit card information.</p>
+  <p>Just as you would avoid a suspicious alley, it's crucial to steer clear of unsafe websites to safeguard your
+   personal data and maintain the health of your device.</p>
+  <p>If you're in an unfamiliar digital environment, it's best to retreat. Navigate away from the website
+   immediately, and avoid clicking on any links, downloading files, or entering personal information.</p>
+  <p>When browsing the internet, trust your instincts and prioritize safety. If a site seems untrustworthy, leave
+   immediately and seek help from a trusted source.</p>
+  <p><strong>This is an unsafe website. Proceed with caution—or better yet, not at all.</strong></p>
+ </div>
+</body>
+
 </html>
